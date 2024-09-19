@@ -4,7 +4,30 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	
+	<style>
+		h2{
+			text-align:center;
+		}
+		table{
+			
+			border-collapse:collapse;
+		}
+		td{
+			border:1px solid black;
+			padding:1px;
+			text-align:center;
+		}
+		.middle{
+			margin-left:auto;
+			margin-right:auto;
+		}
+		.green{
+			background-color:green;
+		}
+		.blue{
+			background-color:blue;
+		}
+	</style>
 </head>
 
 <body>
@@ -16,18 +39,18 @@
 			<td id="t13">right</td>
 		</tr>
 		<tr>
-			<td id="t14">left</td>
-			<td id="t15">center</td>
-			<td class="center right" id="t16">right</td>
+			<td>left</td>
+			<td class="center">center</td>
+			<td class="right">right</td>
 		</tr>
 		<tr>
-			<td id="t17">left</td>
-			<td id="t18">center</td>
-			<td id= "t19">right</td>
+			<td >left</td>
+			<td class="center">center</td>
+			<td class="right">right</td>
 		</tr>
 	</table>
 
-	<table class="middle" id="table-2" border=1>
+	<table class="middle" id="table-2">
 		<tr>
 			<td colspan=6 id="t21"></td>
 		</tr>
@@ -79,7 +102,7 @@
 	</table>
 	<table class="middle" id="table-3">
 		<tr>
-			<td style="background-color:green;"></td>
+			<td class="green"></td>
 		</tr>
 		<tr >
 			<td class="t-image">
@@ -88,7 +111,7 @@
 		 </td>
 		</tr>
 		<tr>
-			<td style="background-color:blue;"></td>
+			<td class="blue"></td>
 		</tr>
 		
 	</table>
